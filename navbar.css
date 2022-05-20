@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: teal;
+}
+
+#counter {
+    display: flex;
+    margin-right:  30px;
+    font-size: larger;
+    color:aqua;
+}
+
+#batch1, #batch2, #batch3 {
+    color: black;
+    margin-right: 5px;
+}
