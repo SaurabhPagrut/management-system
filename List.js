@@ -4,6 +4,7 @@ let count1 = 0;
 let count2 = 0;
 let count3 = 0;
 
+let RemovedData = JSON.parse(localStorage.getItem("trash")) || [];
 StudentData.forEach(function (elem, index) {
     let StudentDiv = document.createElement("div");
     StudentDiv.id = "StdDiv"
@@ -27,6 +28,8 @@ StudentData.forEach(function (elem, index) {
     StudentRemove.innerText = "Remove";
     StudentRemove.id = "remove";
     StudentRemove.addEventListener("click", function () {
+        RemovedData.push(elem);
+        localStorage.setItem("trash", JSON.stringify(RemovedData));
         removeStudent(elem, index);
     })
 
