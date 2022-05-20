@@ -1,0 +1,36 @@
+#container {
+    width: 95%;
+    margin: auto;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, auto);
+    gap: 5%;
+}
+
+#container>div {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    margin-top: 70px;
+    padding-bottom: 35px;
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#remove{
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+#StdDiv>h2, #StdDiv>h4, #StdDiv>button {
+    margin-left: 20px;
+}
+
