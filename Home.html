@@ -20,13 +20,47 @@
             <a id="list" href="./List.html">Students</a>
         </div>
         <div id="logo">
-            <img src="https://www.masaischool.com/img/navbar/logo.svg">
+            <img src="./logo.svg">
         </div>
         <div id="counter">
             <div>Batch 1 : <span id="batch1">0</span></div>
             <div>| Batch 2 : <span id="batch2">0</span></div>
             <div>| Batch 3 : <span id="batch3">0</span></div>
         </div>
+    </div>
+
+    <div id="container">
+        <form id="form">
+            <label for="name">Student Name :</label><br>
+            <input type="text" id="name" placeholder="Enter Student Name"><br><br>
+            <label for="course">Course :</label><br>
+            <select id="course">
+                <option value="">-- Select Course --</option>
+                <option value="FSWD">Full Stack Web Development</option>
+                <option value="FSAD">Full Stack Android Development</option>
+                <option value="DA">Data Analytics</option>
+            </select><br><br>
+            <label for="unit">Unit</label><br>
+            <select id="unit">
+                <option value="">-- Select Unit --</option>
+                <option value="unit1">Unit 1</option>
+                <option value="unit2">Unit 2</option>
+                <option value="unit3">Unit 3</option>
+                <option value="unit4">Unit 4</option>
+                <option value="unit5">Unit 5</option>
+                <option value="unit6">Unit 6</option>
+            </select><br><br>
+            <label for="imageurl">Image URL</label><br>
+            <input type="url" id="imageurl" placeholder="Enter URL"><br><br>
+            <label for="batch">Batch</label><br>
+            <select id="batch">
+                <option value="">-- Select Batch --</option>
+                <option value="B1">Batch 1</option>
+                <option value="B2">Batch 2</option>
+                <option value="B3">Batch 3</option>
+            </select><br><br>
+            <input type="submit" value="submit" id="submit">
+        </form>
     </div>
 </body>
 </html>

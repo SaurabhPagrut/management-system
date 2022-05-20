@@ -2,7 +2,6 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: 'Poppins', sans-serif;
-    height: 1000px;
 }
 
 #navbar {
@@ -22,6 +21,10 @@ body{
     color:aqua;
 }
 
+#counter:hover {
+    cursor: default;
+}
+
 #batch1, #batch2, #batch3 {
     color: black;
     margin-right: 5px;
@@ -31,12 +34,13 @@ a {
     text-decoration: none;
     color: white;
     font-size: larger;
-    font-weight: bold;
 }
 
 #pages{
-    width: 20%;
-    display: flex;
-    justify-content: space-between;
+    width: 24%;
     margin-left: 3%;
+    display: flex;
+}
+#pages > a {
+    margin-left: 25px;
 }

@@ -1,0 +1,31 @@
+#container {
+    margin: auto;
+    width: 400px;
+    padding-top: 100px;
+}
+
+#form {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding: 50px 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+select {
+    width: 94%;
+    padding: 5px;
+}
+
+input {
+    padding: 5px;
+    width: 90%;
+}
+#form > #submit {
+    width: 20%;
+    background-color: teal;
+    border: none;
+    border-radius: 5px;
+    margin-left: 39%;
+    cursor: pointer;
+}
