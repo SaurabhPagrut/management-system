@@ -1,8 +1,8 @@
 let StudentData = JSON.parse(localStorage.getItem("Students"));
 console.log(StudentData);
-let count1=0;
-let count2=0;
-let count3=0;
+let count1 = 0;
+let count2 = 0;
+let count3 = 0;
 
 StudentData.forEach(function (elem, index) {
     let StudentDiv = document.createElement("div");
@@ -33,13 +33,13 @@ StudentData.forEach(function (elem, index) {
     StudentDiv.append(StudentImg, StudentName, StudentCourse, StudentUnit, StudentBatch, StudentRemove);
     document.querySelector("#container").append(StudentDiv);
 
-    if(elem.SBatch == 1){
+    if (elem.SBatch == 1) {
         count1++;
     }
-    else if(elem.SBatch == 2){
+    else if (elem.SBatch == 2) {
         count2++;
     }
-    else if(elem.SBatch == 3){
+    else if (elem.SBatch == 3) {
         count3++;
     }
 })

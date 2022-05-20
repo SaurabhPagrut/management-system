@@ -1,6 +1,7 @@
-body{    
+body {
     height: 700px;
 }
+
 #container {
     margin: auto;
     width: 400px;
@@ -25,7 +26,8 @@ input {
     padding: 5px;
     width: 90%;
 }
-#form > #submit {
+
+#form>#submit {
     width: 20%;
     background-color: teal;
     border: none;

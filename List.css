@@ -21,7 +21,7 @@ img {
     border-top-right-radius: 15px;
 }
 
-#remove{
+#remove {
     padding: 5px 15px;
     border-radius: 10px;
     border: none;
@@ -30,7 +30,8 @@ img {
     color: white;
 }
 
-#StdDiv>h2, #StdDiv>h4, #StdDiv>button {
+#StdDiv>h2,
+#StdDiv>h4,
+#StdDiv>button {
     margin-left: 20px;
 }
-

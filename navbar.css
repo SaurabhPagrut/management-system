@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
     font-family: 'Poppins', sans-serif;
@@ -16,16 +16,18 @@ body{
 
 #counter {
     display: flex;
-    margin-right:  30px;
+    margin-right: 30px;
     font-size: larger;
-    color:aqua;
+    color: aqua;
 }
 
 #counter:hover {
     cursor: default;
 }
 
-#batch1, #batch2, #batch3 {
+#batch1,
+#batch2,
+#batch3 {
     color: black;
     margin-right: 5px;
 }
@@ -36,11 +38,12 @@ a {
     font-size: larger;
 }
 
-#pages{
+#pages {
     width: 24%;
     margin-left: 3%;
     display: flex;
 }
-#pages > a {
+
+#pages>a {
     margin-left: 25px;
 }
